@@ -122,7 +122,7 @@ DELIMITER ;
 call getUpdateSalary();
 
 
-**5 RESULTADO FINAL **
+**5 RESULTADO FINAL**
 
 SELECT employe.id, employe.first_name,employe.last_name, employe.salary, continent.anual_adjustment, continent.name, country.name  FROM employees employe
 INNER JOIN countries country ON employe.country_id=country.id
